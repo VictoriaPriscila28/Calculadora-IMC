@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        Log.w("ligecycle","START - deixei a tela visivel para voce.")
+        Log.w("lifecycle","START - deixei a tela visivel para voce.")
     }
 
     override fun onResume() {
