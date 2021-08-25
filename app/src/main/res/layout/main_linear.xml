@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/title_purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" IMC "
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <EditText
+        android:id="@+id/pesoEDT"
+        android:layout_width="203dp"
+        android:layout_height="71dp"
+        android:hint="Digite seu peso em kg"
+        android:inputType="numberDecimal"
+        android:textColor="@color/teal_700"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <EditText
+        android:id="@+id/alturaEDT"
+        android:layout_width="207dp"
+        android:layout_height="64dp"
+        android:hint="Digite sua altura em cm:"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/calcularBTN"
+        android:layout_width="190dp"
+        android:layout_height="85dp"
+        android:text="CALCULAR"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+</LinearLayout>
+
+
+
